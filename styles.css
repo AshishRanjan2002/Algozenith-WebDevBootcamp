@@ -1,30 +1,141 @@
 *{
     margin: 0;
+    padding:0;
     box-sizing: border-box;
 
 }
-
+body{
+ color:white;
+}
 section{
+    position: relative;
+    min-height: 80vh;
     background-color: #1F4482;
     display: flex;
     justify-content: space-between;
-    height:627px;
 }
 footer{
+        
+        min-height: 20vh;
         background-color: #282828;
         display: flex;
         justify-content: space-between;
 }
-article h1{
+h1.intro{
     font-family: 'Rubik';
     font-size: 36px;
     color: #FFFFFF;
-    position: relative;
-    top:100px;
-    left: 136px;
 }
-article span{
-    font-family: 'Rubik';
-    font-size: 36px;
+ span{
+    font-family: 'Rubik'; 
+     font-size: 36px;
     color: #E9EE00;
 }
+img{
+    position: relative;
+    right: 174px;
+    top:144px;
+    width: 288px;
+    height: 288px;
+    box-shadow: 0px 4px 200px #FFFFFF;
+    border-radius: 24px;
+}
+p.outro{
+    position: absolute;
+    bottom: 51px;
+    left: 134px;
+    font-size: 18px;
+    margin:30px ;
+    
+   
+}
+input[type="email"]
+{
+    position: absolute;
+    bottom: 116px;
+    left: 136px;
+    font-size: 20px;
+    line-height: 160%;
+    border-radius: 8px;
+    height: 64px;
+    width: 344px;
+    border: 4px solid white;
+    font-weight: 500;
+    padding: 10px;
+
+}
+button[type="submit"]
+{
+    position: absolute;
+    bottom: 116px;
+    left: 496px;
+    height: 64px;
+    width: 216px;
+    background:#282828;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+p.about{
+    position: absolute;
+    bottom: 291px;
+    left: 136px;
+    font-family:"DM SANS";
+    font-size: 24px;
+    height: 83px;
+    width: 516px;
+}
+h1.intro{
+    position: absolute;
+    top: 100px;
+    left: 136px;
+    font-family: "Rubik";
+    font-size: 36px;
+}
+article.Web-links{
+    position: relative;
+}
+article ul{
+    position: absolute;
+    left: 191px;
+}
+ul li{
+    width: 216px;
+    height: 24px;
+    list-style: none;
+    line-height: 160%;
+    margin-top:2px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+article.contacts{
+    font-family: "Inter";
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+article.contacts a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+article.contacts a:hover{
+    text-decoration: underline;
+}
+button:hover{
+    cursor: pointer;
+}
+.contacts a.website{
+    margin: 10px;
+}
+.contacts p{
+    line-height: 10px;
+    margin: 30px;
+}
+
